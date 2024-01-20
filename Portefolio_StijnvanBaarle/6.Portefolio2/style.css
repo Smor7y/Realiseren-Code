@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-image: url('./Afbeeldingen/38518cc76d1965753247e4d35f82037a.jpg'); 
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+nav ul li {
+    width: 20%;
+    float: left;
+}
+
+nav ul li a {
+    
+    text-decoration: none; /* Remove underlines */
+    background-color: rgb(20, 20, 77);
+    color: rgb(255, 255, 255);
+    display: block;
+    line-height: 20px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: groove 2px white;
+    border-top: groove 2px white;
+}

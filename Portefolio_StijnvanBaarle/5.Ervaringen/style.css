@@ -1,0 +1,130 @@
+/* Desktop Friendly Part */
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-image: url('./Afbeeldingen/38518cc76d1965753247e4d35f82037a.jpg'); 
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+nav ul li {
+    width: 20%;
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none; 
+    background-color: rgb(20, 20, 77);
+    color: rgb(255, 255, 255);
+    display: block;
+    line-height: 20px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: groove 2px white;
+    border-top: groove 2px white;
+}
+
+a:hover {
+    color: rgb(86, 43, 226);
+}
+
+header {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+main {
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+
+li {
+    font-size: 30px;
+}
+
+#rechts {
+    margin-left: 100px;
+}
+
+footer {
+    color: white;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 280px;
+    display: flex;
+    max-width: 1400px;
+    justify-content: center;
+    text-align: left;
+}
+
+/* ---------------------------------------------------------------------- */
+
+/* Phone Friendly Part */
+
+@media screen and (max-width: 430px) {
+
+    body {
+        overflow: scroll;
+    }
+
+
+    nav ul {
+        flex-direction: column;  /* Change flex direction to column for smaller screens */
+    }
+
+    nav ul li {
+        width: 100%;
+    }
+    
+    header {
+        font-size: 15px;
+        max-width: 300px;
+        margin-left: 65px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 10px;
+        margin-bottom: 4px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    #rechts {
+        margin: 0;
+    }
+
+    footer {
+        font-size: 20px;
+        max-width: 400px;
+        margin-left: 15px;
+        margin-bottom: 20px;
+        margin-top: -2px;
+        text-align: left;
+    }
+
+}

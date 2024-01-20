@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-image: url('./Afbeeldingen/38518cc76d1965753247e4d35f82037a.jpg'); 
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+nav ul li {
+    width: 20%;
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underlines */
+    background-color: rgb(20, 20, 77);
+    color: rgb(255, 255, 255);
+    display: block;
+    line-height: 20px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: groove 2px white;
+    border-top: groove 2px white;
+}
+
+a:hover {
+    color: rgb(86, 43, 226);
+}
+
+main {
+    display: block;
+    left: 100%;
+    margin-left: 40px;
+}
+
+main > div {
+    max-width: 1100px; /* Adjust as needed */
+    color: white !important;
+    font-family: 'Roboto', sans-serif;
+    margin: 90px ;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+#text1, #text2, #text3 {
+    text-align: left ;
+    font-size: 15px;
+}
+
+#photo1 img {
+    border-radius: 10px;
+    border: 2px solid white;
+    display: flex;
+    margin-left: 1350px ;
+    width: 410px;
+    height: auto;
+    flex-direction: row;
+    position: absolute;
+    top: 15.5%;
+}
+
+/* ---------------------------------------------------------------------- */
+
+/* Phone Friendly Part */
+
+@media screen and (max-width: 430px) {
+
+    body {
+        overflow: scroll;
+    }
+
+
+    nav ul {
+        flex-direction: column;  /* Change flex direction to column for smaller screens */
+    }
+
+    nav ul li {
+        width: 100%;
+    }
+    
+    main {
+        display: block;
+        left: 100%;
+        margin-left: 240px;
+        width: 42% ;
+    }
+    
+    main > div {
+        max-width: 800px; /* Adjust as needed */
+        color: white !important;
+        font-family: 'Roboto', sans-serif;
+        margin: 90px;
+    }
+    
+    h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    #text1, #text2, #text3 {
+        text-align: center ;
+        font-size: small;
+    }
+    
+    #photo1 img {
+        border-radius: 10px;
+        border: 2px solid white;
+        display: flex;
+        margin-left: 1250px ;
+        width: 390px;
+        height: auto;
+        flex-direction: row;
+        position: absolute;
+        top: 14%;
+    }
+
+}
