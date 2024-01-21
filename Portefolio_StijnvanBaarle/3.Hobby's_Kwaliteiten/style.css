@@ -47,10 +47,11 @@ main {
     margin-left: 100px;
     margin-top: 40px;
     width: 42% ;
+
 }
 
 main > div {
-    max-width: 800px; /* Adjust as needed */
+    max-width: 1200px;
     color: white !important;
     font-family: 'Roboto', sans-serif;
     margin: 70px;
@@ -60,9 +61,8 @@ h1 {
     font-size: 30px;
 }
 
-#text1, #text2, #text3 {
-    text-align: start ;
-    font-size: 13px;
+#text1, #text3 {
+    font-size: 15px;
     margin-top: 80px;
 }
 
@@ -70,12 +70,12 @@ h1 {
     border-radius: 10px;
     border: 5px solid white;
     display: flex;
-    margin-left: 1000px ;
-    width: 770px;
+    margin-left: 950px ;
+    width: 900px;
     height: auto;
     flex-direction: row;
     position: absolute;
-    top: 30%;
+    top: 25%;
 }
 
 /* ---------------------------------------------------------------------- */
@@ -96,36 +96,42 @@ h1 {
     nav ul li {
         width: 100%;
     }
-    
-    header {
-        font-size: 15px;
-        max-width: 300px;
-        margin-left: 65px;
-    }
 
     main {
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        margin-left: 10px;
-        margin-bottom: 4px;
+        display: block;
+        left: 100%;
+        margin-left: 4px;
+        margin-top: 0px;
+        width: 100% ;
     }
-
+    
+    main > div {
+        max-width: 800px; /* Adjust as needed */
+        color: white !important;
+        font-family: 'Roboto', sans-serif;
+        margin: 20px;
+        margin-top: 0px;
+    }
+    
     h1 {
-        font-size: 40px;
-    }
-
-    #rechts {
-        margin: 0;
-    }
-
-    footer {
-        font-size: 20px;
-        max-width: 400px;
-        margin-left: 15px;
+        font-size: 30px;
         margin-bottom: 20px;
-        margin-top: -2px;
-        text-align: left;
+    }
+    
+    #text1, #text3 {
+        text-align: left ;
+        font-size: small;
     }
 
+    #video_motor video {
+        border-radius: 10px;
+        border: 5px solid white;
+        display: flex;
+        margin-left: 10px ;
+        width: 400px;
+        height: auto;
+        flex-direction: row;
+        top: 143%;
+        position: absolute;
+    }
 }

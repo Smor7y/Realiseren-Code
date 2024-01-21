@@ -112,20 +112,56 @@ a:hover {
         width: 100%;
     }
     
-    header {
-        font-size: 15px;
-        max-width: 300px;
-        margin-left: 65px;
+    #school {
+        color: white;
+        max-width: 400px;
+        margin-left: 20px;
+        margin-top: 30px;
     }
-
-    main {
+    
+    #kop_tekst {
+        font-size: 35px;
+    }
+    
+    #verhaal_tekst {
+        font-size: 19.5px;
+    }
+    
+    #logo img {
         display: flex;
-        flex-direction: column;
-        text-align: left;
-        margin-left: 10px;
-        margin-bottom: 4px;
+        flex-direction: row;
+        position: absolute;
+        top: 205%;
+        margin-left: 20px ;
+        border-radius: 30px;
+        border: 3px solid rgb(255, 255, 255);
+        width: 385px;
+        height: auto;
     }
-
+    
+    #foto_school img {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 220%;
+        margin-left: 20px ;
+        border-radius: 30px;
+        border: 3px solid white;
+        width: 385px;
+        height: auto;
+        max-width: 800px;
+    }
+    
+    #foto_school h1 {
+        color: white;
+        font-size: 25px;
+        top: 245%;
+        margin-left: 25px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+    }
 
 
 

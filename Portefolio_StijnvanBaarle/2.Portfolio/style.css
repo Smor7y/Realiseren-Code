@@ -73,7 +73,7 @@ h1 {
     height: auto;
     flex-direction: row;
     position: absolute;
-    top: 15.5%;
+    top: 13%;
 }
 
 /* ---------------------------------------------------------------------- */
@@ -98,15 +98,15 @@ h1 {
     main {
         display: block;
         left: 100%;
-        margin-left: 240px;
-        width: 42% ;
+        margin-left: 4px;
+        width: 100% ;
     }
     
     main > div {
         max-width: 800px; /* Adjust as needed */
         color: white !important;
         font-family: 'Roboto', sans-serif;
-        margin: 90px;
+        margin: 20px;
     }
     
     h1 {
@@ -115,7 +115,7 @@ h1 {
     }
     
     #text1, #text2, #text3 {
-        text-align: center ;
+        text-align: left ;
         font-size: small;
     }
     
@@ -123,12 +123,12 @@ h1 {
         border-radius: 10px;
         border: 2px solid white;
         display: flex;
-        margin-left: 1250px ;
+        margin-left: 19px;
         width: 390px;
         height: auto;
-        flex-direction: row;
+        flex-direction: column;
+        top: 175%;
         position: absolute;
-        top: 14%;
     }
 
 }
